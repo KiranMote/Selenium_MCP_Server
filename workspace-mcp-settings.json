@@ -1,0 +1,11 @@
+{
+  "github.copilot.chat.mcp.servers": {
+    "selenium-mcp-server": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "C:\\Users\\kiran\\OneDrive\\Desktop\\kiran_selenium_mcp_server\\dist\\index.js"
+      ]
+    }
+  }
+}

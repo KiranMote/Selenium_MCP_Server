@@ -1,0 +1,44 @@
+{
+  "name": "kiran_selenium_mcp_server",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol (MCP) server for Selenium WebDriver automation",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node --esm src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:allure": "node automation-scripts/allure-test-runner.cjs",
+    "test:mcp-allure": "node automation-scripts/mcp-allure-integration.cjs",
+    "allure:generate": "allure generate automation-scripts/allure-results --clean -o automation-scripts/allure-report",
+    "allure:open": "allure open automation-scripts/allure-report",
+    "allure:serve": "allure serve automation-scripts/allure-results"
+  },
+  "keywords": [
+    "mcp",
+    "selenium",
+    "webdriver",
+    "automation",
+    "browser"
+  ],
+  "author": "Kiran",
+  "license": "MIT",
+  "bin": {
+    "selenium-mcp-server": "./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "allure-commandline": "^2.34.1",
+    "allure-js-commons": "^3.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.1",
+    "@types/selenium-webdriver": "^4.1.28",
+    "selenium-webdriver": "^4.34.0",
+    "uuid": "^11.1.0",
+    "zod": "^3.25.76"
+  }
+}

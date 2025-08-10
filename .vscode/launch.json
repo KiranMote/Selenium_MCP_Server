@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Selenium MCP Server",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/dist/index.js",
+            "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "integratedTerminal",
+            "preLaunchTask": "Build Selenium MCP Server",
+            "skipFiles": ["<node_internals>/**"]
+        },
+        {
+            "name": "Debug Selenium MCP Server (TypeScript)",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/index.ts",
+            "runtimeArgs": ["--loader", "ts-node/esm"],
+            "env": {
+                "NODE_ENV": "development",
+                "NODE_OPTIONS": "--loader ts-node/esm"
+            },
+            "console": "integratedTerminal",
+            "skipFiles": ["<node_internals>/**"]
+        }
+    ]
+}
