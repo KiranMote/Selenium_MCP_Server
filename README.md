@@ -50,6 +50,9 @@ Add the same block to `.vscode/mcp.json` in your project folder.
 - Open the Command Palette in VS Code and use MCP features (requires MCP-compatible extensions).
 - The server will be available for browser automation tasks.
 
+- <img width="901" height="778" alt="image" src="https://github.com/user-attachments/assets/70dd67dc-90a9-4420-8ac4-edb39576220d" />
+
+
 ---
 
 A Model Context Protocol (MCP) server that provides browser automation capabilities using Selenium WebDriver. This server allows you to control web browsers programmatically through a standardized interface.
