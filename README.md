@@ -52,8 +52,8 @@ Add and run tests as needed.
 
 4. Save the file. Now, the server is available in all VS Code workspaces.
 
-#### You Cn open New Folder And Installed MCP server Will be available there:
-<img width="90" height="58" alt="image" src="https://github.com/user-attachments/assets/7b630486-662e-4588-b349-e3556f9fc3db" />
+#### You Can open New Folder And Installed MCP server Will be available there:
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/7b630486-662e-4588-b349-e3556f9fc3db" />
 
 
 ---
@@ -64,7 +64,9 @@ Check in Github Copilot Chat section Selenium MCP server tools present or not.
 <img width="906" height="435" alt="image" src="https://github.com/user-attachments/assets/aa3b4bb4-f437-4a6c-b010-ba5e7a4e35fc" />
 
 Give Prompt As per Requirement:
-<img width="442" height="449" alt="image" src="https://github.com/user-attachments/assets/7c1de24b-fc07-4cb7-bb8c-735fdf9d5339" />
+
+
+<img width="100" height="110" alt="image" src="https://github.com/user-attachments/assets/7c1de24b-fc07-4cb7-bb8c-735fdf9d5339" />
 
 It Use exploration, Inspect And more tools from that mcp And Do work for us.
 
