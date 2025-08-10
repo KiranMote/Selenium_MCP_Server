@@ -2,12 +2,18 @@
 
 ## Quick Start: Install & Use in VS Code
 
+### Prerequisites
+- Node.js 18+ 
+- TypeScript
+- Selenium WebDriver browser drivers
+
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/KiranMote/Selenium_MCP_Server.git
 cd Selenium_MCP_Server
 ```
+<img width="1185" height="239" alt="image" src="https://github.com/user-attachments/assets/f7688373-ecad-4c6d-b11f-9c3c97a153bd" />
 
 ### 2. Install Dependencies
 
@@ -30,7 +36,9 @@ Add and run tests as needed.
 #### Global Registration (Recommended)
 1. Open (or create) the file:
    `C:\Users\<your-username>\AppData\Roaming\Code\User\mcp.json`
-2. Add the following under `"servers"`:
+   <img width="474" height="294" alt="image" src="https://github.com/user-attachments/assets/4287795b-71a9-4d04-b6c0-859b3b7ce2b4" />
+
+3. Add the following under `"servers"`:
    ```json
    "selenium-mcp-server": {
      "type": "stdio",
@@ -40,22 +48,25 @@ Add and run tests as needed.
      ]
    }
    ```
-3. Save the file. Now, the server is available in all VS Code workspaces.
+   <img width="1232" height="365" alt="image" src="https://github.com/user-attachments/assets/930b98cc-7f4c-4110-861e-c258d1de1f2f" />
 
-#### Workspace Registration (Alternative)
-Add the same block to `.vscode/mcp.json` in your project folder.
+4. Save the file. Now, the server is available in all VS Code workspaces.
 
-### 6. Using the MCP Server
-
-- Open the Command Palette in VS Code and use MCP features (requires MCP-compatible extensions).
-- The server will be available for browser automation tasks.
-
-- <img width="901" height="778" alt="image" src="https://github.com/user-attachments/assets/70dd67dc-90a9-4420-8ac4-edb39576220d" />
+#### You Cn open New Folder And Installed MCP server Will be available there:
+<img width="90" height="58" alt="image" src="https://github.com/user-attachments/assets/7b630486-662e-4588-b349-e3556f9fc3db" />
 
 
 ---
 
-A Model Context Protocol (MCP) server that provides browser automation capabilities using Selenium WebDriver. This server allows you to control web browsers programmatically through a standardized interface.
+## How to use Selenium MCP server.
+Check in Github Copilot Chat section Selenium MCP server tools present or not.
+<img width="460" height="187" alt="image" src="https://github.com/user-attachments/assets/a42f7c69-0542-45ea-ba5f-bff71d1204aa" />
+<img width="906" height="435" alt="image" src="https://github.com/user-attachments/assets/aa3b4bb4-f437-4a6c-b010-ba5e7a4e35fc" />
+
+Give Prompt As per Requirement:
+<img width="442" height="449" alt="image" src="https://github.com/user-attachments/assets/7c1de24b-fc07-4cb7-bb8c-735fdf9d5339" />
+
+It Use exploration, Inspect And more tools from that mcp And Do work for us.
 
 ## Features
 
@@ -65,30 +76,6 @@ A Model Context Protocol (MCP) server that provides browser automation capabilit
 - **Flexible Element Selection**: CSS selectors, XPath, ID, class name, and tag name
 - **Robust Error Handling**: Proper validation and user-friendly error messages
 - **TypeScript**: Full type safety and modern JavaScript features
-
-## Installation
-
-1. Clone or download this repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Build the project:
-   ```bash
-   npm run build
-   ```
-
-## Usage
-
-### Running the Server
-
-```bash
-# Start the MCP server
-npm start
-
-# Or run in development mode
-npm run dev
-```
 
 ### Available Tools
 
@@ -178,10 +165,6 @@ npm run dev
 
 ## Development
 
-### Prerequisites
-- Node.js 18+ 
-- TypeScript
-- Selenium WebDriver browser drivers
 
 ### Building
 ```bash
