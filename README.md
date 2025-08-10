@@ -1,5 +1,57 @@
 # Selenium MCP Server
 
+## Quick Start: Install & Use in VS Code
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/KiranMote/Selenium_MCP_Server.git
+cd Selenium_MCP_Server
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Build the Project
+
+```bash
+npm run build
+```
+
+### 4. (Optional) Test the Server
+
+Add and run tests as needed.
+
+### 5. Register the MCP Server in VS Code
+
+#### Global Registration (Recommended)
+1. Open (or create) the file:
+   `C:\Users\<your-username>\AppData\Roaming\Code\User\mcp.json`
+2. Add the following under `"servers"`:
+   ```json
+   "selenium-mcp-server": {
+     "type": "stdio",
+     "command": "node",
+     "args": [
+       "C:\\Users\\<your-username>\\Selenium_MCP_Server\\dist\\index.js"
+     ]
+   }
+   ```
+3. Save the file. Now, the server is available in all VS Code workspaces.
+
+#### Workspace Registration (Alternative)
+Add the same block to `.vscode/mcp.json` in your project folder.
+
+### 6. Using the MCP Server
+
+- Open the Command Palette in VS Code and use MCP features (requires MCP-compatible extensions).
+- The server will be available for browser automation tasks.
+
+---
+
 A Model Context Protocol (MCP) server that provides browser automation capabilities using Selenium WebDriver. This server allows you to control web browsers programmatically through a standardized interface.
 
 ## Features
